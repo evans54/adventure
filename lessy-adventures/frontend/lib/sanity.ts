@@ -19,3 +19,14 @@ export async function getEventBySlug(slug: string) {
     { slug }
   )
 }
+
+export async function getPackages() {
+  return await client.fetch(`*[_type == "package"]`)
+}
+
+export async function getPackageBySlug(slug: string) {
+  return await client.fetch(
+    `*[_type == "package" && slug.current == $slug][0]`,
+    { slug }
+  )
+}
