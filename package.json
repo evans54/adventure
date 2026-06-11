@@ -1,0 +1,11 @@
+{
+  "name": "adventure-root",
+  "version": "1.0.0",
+  "description": "Root proxy for lessy-adventures",
+  "scripts": {
+    "dev": "npm run dev --prefix lessy-adventures",
+    "build": "npm run build --prefix lessy-adventures",
+    "start": "npm run start --prefix lessy-adventures",
+    "lint": "npm run lint --prefix lessy-adventures"
+  }
+}
