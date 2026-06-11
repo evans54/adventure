@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lessy-adventures.com/sitemap.xml
